@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Curated data</title>
-    <link>http://localhost:50647/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Curated data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50647/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global Data Inventory</title>
-      <link>http://localhost:50647/targeted-datasets/global-data-inventory/</link>
+      <link>http://localhost:1313/targeted-datasets/global-data-inventory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/targeted-datasets/global-data-inventory/</guid>
+      <guid>http://localhost:1313/targeted-datasets/global-data-inventory/</guid>
       <description></description>
     </item>
     <item>
       <title>Refugee Data Finder</title>
-      <link>http://localhost:50647/foundational-datasets/refugee-data-finder/</link>
+      <link>http://localhost:1313/foundational-datasets/refugee-data-finder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/foundational-datasets/refugee-data-finder/</guid>
+      <guid>http://localhost:1313/foundational-datasets/refugee-data-finder/</guid>
       <description></description>
     </item>
     <item>
       <title>Operational Data Portal</title>
-      <link>http://localhost:50647/foundational-datasets/operational-data-portal/</link>
+      <link>http://localhost:1313/foundational-datasets/operational-data-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/foundational-datasets/operational-data-portal/</guid>
+      <guid>http://localhost:1313/foundational-datasets/operational-data-portal/</guid>
       <description></description>
     </item>
     <item>
       <title>RIDL</title>
-      <link>http://localhost:50647/targeted-datasets/ridl/</link>
+      <link>http://localhost:1313/targeted-datasets/ridl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/targeted-datasets/ridl/</guid>
+      <guid>http://localhost:1313/targeted-datasets/ridl/</guid>
       <description></description>
     </item>
     <item>
       <title>RIMAP</title>
-      <link>http://localhost:50647/thematic-datasets/rimap/</link>
+      <link>http://localhost:1313/thematic-datasets/rimap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/thematic-datasets/rimap/</guid>
+      <guid>http://localhost:1313/thematic-datasets/rimap/</guid>
       <description></description>
     </item>
     <item>
       <title>Nowcasting Database</title>
-      <link>http://localhost:50647/foundational-datasets/nowcasting-database/</link>
+      <link>http://localhost:1313/foundational-datasets/nowcasting-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/foundational-datasets/nowcasting-database/</guid>
+      <guid>http://localhost:1313/foundational-datasets/nowcasting-database/</guid>
       <description></description>
     </item>
     <item>
       <title>PRIMES Dataport</title>
-      <link>http://localhost:50647/targeted-datasets/primes-dataport/</link>
+      <link>http://localhost:1313/targeted-datasets/primes-dataport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/targeted-datasets/primes-dataport/</guid>
+      <guid>http://localhost:1313/targeted-datasets/primes-dataport/</guid>
       <description></description>
     </item>
     <item>
       <title>TIMS</title>
-      <link>http://localhost:50647/thematic-datasets/tims/</link>
+      <link>http://localhost:1313/thematic-datasets/tims/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/thematic-datasets/tims/</guid>
+      <guid>http://localhost:1313/thematic-datasets/tims/</guid>
       <description></description>
     </item>
     <item>
       <title>GIS Database</title>
-      <link>http://localhost:50647/foundational-datasets/gis-database/</link>
+      <link>http://localhost:1313/foundational-datasets/gis-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/foundational-datasets/gis-database/</guid>
+      <guid>http://localhost:1313/foundational-datasets/gis-database/</guid>
       <description></description>
     </item>
     <item>
       <title>IRHIS</title>
-      <link>http://localhost:50647/thematic-datasets/irhis/</link>
+      <link>http://localhost:1313/thematic-datasets/irhis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/thematic-datasets/irhis/</guid>
+      <guid>http://localhost:1313/thematic-datasets/irhis/</guid>
       <description></description>
     </item>
     <item>
       <title>MDL</title>
-      <link>http://localhost:50647/targeted-datasets/mdl/</link>
+      <link>http://localhost:1313/targeted-datasets/mdl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50647/targeted-datasets/mdl/</guid>
+      <guid>http://localhost:1313/targeted-datasets/mdl/</guid>
       <description></description>
     </item>
   </channel>
