@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thematic datasets on Curated data</title>
-    <link>http://localhost:51161/curated-data/thematic-datasets/</link>
+    <link>http://localhost:51229/thematic-datasets/</link>
     <description>Recent content in Thematic datasets on Curated data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:51161/curated-data/thematic-datasets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51229/thematic-datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RIMAP</title>
-      <link>http://localhost:51161/curated-data/thematic-datasets/rimap/</link>
+      <link>http://localhost:51229/thematic-datasets/rimap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51161/curated-data/thematic-datasets/rimap/</guid>
+      <guid>http://localhost:51229/thematic-datasets/rimap/</guid>
       <description></description>
     </item>
     <item>
       <title>TIMS</title>
-      <link>http://localhost:51161/curated-data/thematic-datasets/tims/</link>
+      <link>http://localhost:51229/thematic-datasets/tims/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51161/curated-data/thematic-datasets/tims/</guid>
+      <guid>http://localhost:51229/thematic-datasets/tims/</guid>
       <description></description>
     </item>
     <item>
       <title>IRHIS</title>
-      <link>http://localhost:51161/curated-data/thematic-datasets/irhis/</link>
+      <link>http://localhost:51229/thematic-datasets/irhis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51161/curated-data/thematic-datasets/irhis/</guid>
+      <guid>http://localhost:51229/thematic-datasets/irhis/</guid>
       <description></description>
     </item>
   </channel>
