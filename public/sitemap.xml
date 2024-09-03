@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/targeted-datasets/global-data-inventory/</loc>
+    <loc>http://localhost:50983/curated-data/targeted-datasets/global-data-inventory/</loc>
   </url><url>
-    <loc>http://localhost:1313/foundational-datasets/refugee-data-finder/</loc>
+    <loc>http://localhost:50983/curated-data/foundational-datasets/refugee-data-finder/</loc>
   </url><url>
-    <loc>http://localhost:1313/foundational-datasets/operational-data-portal/</loc>
+    <loc>http://localhost:50983/curated-data/foundational-datasets/operational-data-portal/</loc>
   </url><url>
-    <loc>http://localhost:1313/targeted-datasets/ridl/</loc>
+    <loc>http://localhost:50983/curated-data/targeted-datasets/ridl/</loc>
   </url><url>
-    <loc>http://localhost:1313/thematic-datasets/rimap/</loc>
+    <loc>http://localhost:50983/curated-data/thematic-datasets/rimap/</loc>
   </url><url>
-    <loc>http://localhost:1313/foundational-datasets/nowcasting-database/</loc>
+    <loc>http://localhost:50983/curated-data/foundational-datasets/nowcasting-database/</loc>
   </url><url>
-    <loc>http://localhost:1313/targeted-datasets/primes-dataport/</loc>
+    <loc>http://localhost:50983/curated-data/targeted-datasets/primes-dataport/</loc>
   </url><url>
-    <loc>http://localhost:1313/thematic-datasets/tims/</loc>
+    <loc>http://localhost:50983/curated-data/thematic-datasets/tims/</loc>
   </url><url>
-    <loc>http://localhost:1313/foundational-datasets/</loc>
+    <loc>http://localhost:50983/curated-data/foundational-datasets/</loc>
   </url><url>
-    <loc>http://localhost:1313/foundational-datasets/gis-database/</loc>
+    <loc>http://localhost:50983/curated-data/foundational-datasets/gis-database/</loc>
   </url><url>
-    <loc>http://localhost:1313/thematic-datasets/irhis/</loc>
+    <loc>http://localhost:50983/curated-data/thematic-datasets/irhis/</loc>
   </url><url>
-    <loc>http://localhost:1313/targeted-datasets/mdl/</loc>
+    <loc>http://localhost:50983/curated-data/targeted-datasets/mdl/</loc>
   </url><url>
-    <loc>http://localhost:1313/targeted-datasets/</loc>
+    <loc>http://localhost:50983/curated-data/targeted-datasets/</loc>
   </url><url>
-    <loc>http://localhost:1313/thematic-datasets/</loc>
+    <loc>http://localhost:50983/curated-data/thematic-datasets/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:50983/curated-data/</loc>
     <lastmod>2023-01-23T18:14:03+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:50983/curated-data/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:50983/curated-data/tags/</loc>
   </url>
 </urlset>

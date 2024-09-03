@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Foundational datasets on Curated data</title>
-    <link>http://localhost:1313/foundational-datasets/</link>
+    <link>http://localhost:50983/curated-data/foundational-datasets/</link>
     <description>Recent content in Foundational datasets on Curated data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/foundational-datasets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50983/curated-data/foundational-datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Refugee Data Finder</title>
-      <link>http://localhost:1313/foundational-datasets/refugee-data-finder/</link>
+      <link>http://localhost:50983/curated-data/foundational-datasets/refugee-data-finder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foundational-datasets/refugee-data-finder/</guid>
+      <guid>http://localhost:50983/curated-data/foundational-datasets/refugee-data-finder/</guid>
       <description></description>
     </item>
     <item>
       <title>Operational Data Portal</title>
-      <link>http://localhost:1313/foundational-datasets/operational-data-portal/</link>
+      <link>http://localhost:50983/curated-data/foundational-datasets/operational-data-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foundational-datasets/operational-data-portal/</guid>
+      <guid>http://localhost:50983/curated-data/foundational-datasets/operational-data-portal/</guid>
       <description></description>
     </item>
     <item>
       <title>Nowcasting Database</title>
-      <link>http://localhost:1313/foundational-datasets/nowcasting-database/</link>
+      <link>http://localhost:50983/curated-data/foundational-datasets/nowcasting-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foundational-datasets/nowcasting-database/</guid>
+      <guid>http://localhost:50983/curated-data/foundational-datasets/nowcasting-database/</guid>
       <description></description>
     </item>
     <item>
       <title>GIS Database</title>
-      <link>http://localhost:1313/foundational-datasets/gis-database/</link>
+      <link>http://localhost:50983/curated-data/foundational-datasets/gis-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foundational-datasets/gis-database/</guid>
+      <guid>http://localhost:50983/curated-data/foundational-datasets/gis-database/</guid>
       <description></description>
     </item>
   </channel>
