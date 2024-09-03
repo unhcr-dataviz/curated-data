@@ -1,0 +1,17 @@
+<nav class="page-navigation">
+  <div class="nav-page">
+      {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" class="pagination-link" aria-label="{{ .Title }}">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">{{ .Title }}</span>
+      </a>
+      {{ end }}
+  </div>
+  <div class="nav-page">
+      {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="pagination-link" aria-label="{{ .Title }}">
+        <span class="nav-page-text">{{ .Title }}</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+      {{ end }}
+  </div>
+</nav>
+

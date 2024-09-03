@@ -1,0 +1,159 @@
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+    {{ $siteTitle := .Site.Title }}
+    {{ with .Page.Params.tagline }}
+        {{ $siteTitle }} - {{ . }}
+    {{ else }}
+        {{ $siteTitle }} - {{ .Page.Title  }}
+    {{ end }}
+</title>
+<meta name="author" content="Cedric Vidonne">
+<meta name="author" content="Lei Chen">
+
+<!-- Load css -->
+<link href="/css/unhcr.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" >
+<script src="/js/vendor/jquery.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- Embed libraries for Home  -->
+{{ with .Params.title }}
+    {{ if eq . "Home" }}
+    <script src="/js/vendor/d3.min.js"></script>
+    <style>
+        .tooltip {
+          position: absolute;
+          border-radius: 3px;
+          pointer-events: none;
+          transition: opacity 0.2s;
+          background-color: #ffffff;
+          padding: 6px;
+          color: #333333;
+          box-shadow: 0px 0px 4px 0px #c9c9c9;
+        }
+        .node {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+        .link {
+            stroke: #c2c2c2;
+            stroke-opacity: 0.2;
+        }
+        </style>
+    {{ end }}
+{{ end }}
+
+{{ if .Params.header_full_width }}
+<style>
+.video-holder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: calc(100vh - 98.19px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  
+}
+.video-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.video-content {
+  display: grid;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.video-content p {
+font-weight: 100;
+font-size: 15px;
+color: #fff;
+line-height: 1.4;
+}
+.video-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 16px 0;
+}
+.video-content h3 {
+  font-weight: 100;
+  color: #fff;
+  line-height: 1.4;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}  
+</style>
+{{ end }}
+
+
+
+<!-- Embed syntax highlighter for tutorials -->
+{{ if .Params.tutorial }}
+    <link href="/css/vendor/prism.min.css" rel="stylesheet" />
+{{ end }}
+
+<!-- Embed libraries for tutorials   -->
+{{ with .Params.lang }}
+    {{ if eq . "d3" }}
+    <script src="/js/vendor/d3.min.js"></script>
+    <script src="/js/vendor/parser.js"></script>
+    {{ end }}
+    {{ if eq . "plotly-python" }}
+    <script src="/js/vendor/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.11.1.min.js"></script>
+    {{ end }}
+{{ end }}
+
+<!-- Embed libraries for products based on tech used   -->
+{{ with .Params.css_js_library }}
+    {{ if .d3 }}
+    <script src="/js/vendor/d3.min.js"></script>
+    {{ end }}
+
+    {{ if .mapbox }}
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js'></script>
+   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css' rel='stylesheet' />
+    {{ end }}
+
+    {{ if .scrollama }}
+    <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
+    <script src="/js/vendor/scrollama.min.js"></script>
+    {{ end }}
+{{ end }}
+
+<!-- Embed extra style used by products  -->
+{{ with .Params.extra_css }}
+    {{ range . }}
+    {{ . | safeHTML }}
+    {{ end }}
+{{ end }}
+
+
+<!-- favicon -->
+<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+

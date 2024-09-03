@@ -1,0 +1,22 @@
+baseURL: http://localhost:1313/
+languageCode: 'en-us'
+title: 'Curated data'
+relativeURLS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableInlineShortcodes: true
+
+ignoreFiles: [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+
+pygmentsuseclasses: true
+
+permalinks:
+  page:
+    product-gallery: /product-gallery/:year/:month/:title/
+
+
+

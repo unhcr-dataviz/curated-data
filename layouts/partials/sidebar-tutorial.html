@@ -1,0 +1,25 @@
+<!-- Collapsible Sidebar -->
+<nav id="dvp-sidebar">
+  {{ $tutorialSection := .Site.GetPage "section" "tutorials" }}
+  {{ $currentPageURL := .Permalink }}
+  <h6>
+    <a href="{{ $tutorialSection.Permalink }}" class="text-body">Tutorials</a>
+  </h6>
+  <ul>
+    {{ with $tutorialSection }}
+      {{ range .Pages }}
+      {{ $pageTitle := .Title }}
+        {{ if eq .Section "tutorials" }}
+          <li>
+            <a class="{{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }}active{{ end }}" href="{{ .Permalink }}" class="d-inline-flex align-items-center border-0" >
+              <span>{{ $pageTitle }}</span>
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+
+
+

@@ -1,0 +1,10 @@
+<nav id="sidebar">
+  <h6>On this page</h6>
+  <ul>
+    {{ range .Pages }}
+    <li>
+      <a href="#{{ .Params.id }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>

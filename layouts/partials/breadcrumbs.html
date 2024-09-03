@@ -1,0 +1,13 @@
+{{ if not (and .IsHome .IsSection) }}
+<div id="breadcrumb">
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      {{- range .Ancestors.Reverse }}
+      <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{- end }}
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+</nav>
+</div>
+{{ end }}
+

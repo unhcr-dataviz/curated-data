@@ -1,0 +1,109 @@
+// Color system
+// UNHCR colors
+$unhcr-blue: #0072BC;
+$unhcr-white: #FFFFFF;
+$unhcr-black: #000000;
+$unhcr-yellow: #FAEB00;
+$unhcr-grey: #666666;
+$unhcr-navy: #18375F;
+$unhcr-green: #00B398;
+$unhcr-red: #EF4A60;
+$unhcr-lightblue: #DCE9FF;
+$unhcr-mediumblue: #8EBEFF;
+$unhcr-darkblue: #044F85;
+$unhcr-lightgrey: #E6E6E6;
+$unhcr-mediumgrey: #CCCCCC;
+$unhcr-darkgrey: #222222;
+$unhcr-lightyellow: #FFF9CB;
+$unhcr-mediumyellow: #FFF483;
+$unhcr-darkyellow: #E1CC0D;
+
+// Grays
+$gray-100: #f2f2f2;
+$gray-200: $unhcr-lightgrey;
+$gray-300: $unhcr-mediumgrey;
+$gray-400: #b3b3b3;
+$gray-500: #999999;
+$gray-600: $unhcr-grey;
+$gray-700: #4d4d4d;
+$gray-800: #333333;
+$gray-900: $unhcr-darkgrey;
+
+// Main
+$blue: $unhcr-blue;
+$yellow: $unhcr-yellow;
+$green: $unhcr-green;
+$red: $unhcr-red;
+
+// Theme
+$info: $unhcr-mediumblue;
+$warning: $unhcr-darkyellow;
+
+// Options
+//
+// Bootstrap default variable overrides
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+$enable-dark-mode: false;
+$variable-prefix: unhcr-;
+
+// Links
+//
+// Style anchor elements.
+$link-decoration: none;
+$link-hover-color: $unhcr-blue;
+$link-hover-decoration: underline;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+// scss-docs-end grid-breakpoints
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+// scss-docs-end container-max-widths
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Code+Pro&display=swap');
+$font-family-base: 'Lato', Arial, sans-serif;
+$font-family-code: 'Source Code Pro', monospace;
+$font-size-root: 18px;
+$line-height-base: 1.4;
+
+$headings-font-weight: 700;
+$headings-color: $unhcr-black;
+$h2-font-size: 2.25rem;
+
+$mark-bg: $unhcr-lightyellow;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+$btn-border-radius: 0.25rem;
+$btn-padding-x: 1rem;
+$btn-border-width: 2px;
+
+// Navbar
+$navbar-light-active-color: $unhcr-blue;
+
+// Breadcrumb
+$breadcrumb-font-size: 0.9rem;
+$breadcrumb-divider: quote(">");

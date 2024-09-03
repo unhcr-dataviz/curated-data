@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-hugo-site",
+  "version": "1.0.0",
+  "description": "A Hugo testing website for UNHCR Dataviz Platform ",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Lei Chen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}

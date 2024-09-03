@@ -1,0 +1,17 @@
+<nav id="dvp-sidebar">
+  {{ $chartSection := .Site.GetPage "section" "chart-types" }}
+  {{ $currentPageURL := .Permalink }}
+  <h6>
+    <a href="{{ $chartSection.Permalink }}" class="text-body">Chart types</a>
+  </h6>
+  <ul>
+    {{ with $chartSection }}
+    {{ range .Pages }}
+      {{ $categoryURL := printf "/chart-types/%s" ( .Title | urlize) }}
+        <li>
+          <a class="{{ if or (eq $currentPageURL $categoryURL) (in $currentPageURL $categoryURL) }}active{{ end }}" href="{{ $categoryURL }}"><span>{{ .Title }}</span></a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

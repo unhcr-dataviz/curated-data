@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="nav-sidebar dvp-container my-5">
+  <!-- Back to top button -->
+  <a id="back-to-top"></a>
+  
+  <!-- Sidebar -->
+  <div id="dvp-sidebar-right" class="sidebar dvp-sidebar-right">
+    {{- partial "sidebar-resource-right.html" . -}}
+  </div>
+  <!-- Sidebar end -->
+  <main class="dvp-body-left content mb-5" id="{{ .Title | urlize }}">
+    {{- partial "breadcrumbs.html" . -}}
+    {{ .Content }}
+  </main>
+</div>
+{{ end }}
+
+

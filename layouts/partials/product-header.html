@@ -1,0 +1,21 @@
+<div id="product-header">
+<h1 class="mb-3">{{ .Title }}</h1>
+{{ with .Params.subtitle }}
+<p class="lead">{{ . }}</p>
+{{ end }}
+<p class="text-secondary">{{ .Params.date.Format "2 Jan 2006" }}</p>
+{{ $headImg := .Params.header_image }}
+{{ $headImgAlt := .Params.header_image_alt }}
+{{ $headImgDesc := .Params.header_image_caption }}
+{{ if $headImg }}
+<figure class="figure mt-2">
+  <img src="{{ $headImg }}" class="figure-img img-fluid" alt="{{ $headImgAlt }}" width="100%">
+  <figcaption class="figure-caption">
+    <p>{{ $headImgDesc }}</p>
+  </figcaption>
+</figure>
+{{ else }}
+<hr>
+{{ end }}
+</div>
+

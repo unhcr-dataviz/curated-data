@@ -1,0 +1,13 @@
+<nav id="sidebar">
+  <h6>On this page</h6>
+  <ul>
+  {{ $sidebarTitle := .Page.Title }}
+    {{ range $index, $data := .Site.Data.charts }}
+    {{ if eq $data.category $sidebarTitle }}
+    <li>
+      <a href="#{{ $data.id }}">{{ $data.caption }}</a>
+    </li>
+    {{ end }}
+  {{ end }}
+  </ul>
+</nav>

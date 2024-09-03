@@ -1,0 +1,77 @@
+<!-- Collapsible Sidebar -->
+<nav id="dvp-sidebar">
+  {{ $tutorialSection := .Site.GetPage "section" "tutorials" }}
+  {{ $currentPageURL := .Permalink }}
+  <h6>
+    <a href="{{ $tutorialSection.Permalink }}" class="text-body">Tutorials</a>
+  </h6>
+  <div class="sidebar-menu-container">
+    <ul>
+      {{ with $tutorialSection }}
+        {{ range .Pages }}
+          {{ $pageTitle := .Title }}
+          {{ $subpages := .Pages }}
+          {{ if eq .Section "tutorials" }}
+            <li class="sidebar-item sidebar-item-section">
+              <div class="sidebar-item-container">
+                <a href="#{{ .Params.id | urlize }}-collapse" role="button" class="sidebar-item-text d-inline-flex sidebar-link text-start collapsed {{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }}show active{{ end }}" data-bs-toggle="collapse" aria-expanded="{{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }}true{{ else }}false{{ end }}">
+                  <span class="sidebar-text-level2">{{ $pageTitle }}</span>
+                </a>
+                <a href="#{{ .Params.id | urlize }}-collapse" role="button" class="sidebar-item-toggle d-inline-flex text-start collapsed {{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }}show active{{ end }}" data-bs-toggle="collapse" aria-expanded="{{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }}true{{ else }}false{{ end }}">
+                  <i class="bi bi-chevron-right ms-2"></i>
+                </a>
+              </div>
+              <ul id="{{ .Params.id | urlize }}-collapse" class="sidebar-section collapse {{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }}show{{ end }}">
+                {{ range $subpages }}
+                  <li class="nav-item">
+                    <a href="{{ .Permalink }}" class="sidebar-item-text d-inline-flex nav-link{{ if or (eq $currentPageURL .Permalink) (in $currentPageURL .Permalink) }} active{{ end }}">
+                      <span class="sidebar-text-level3">{{ .Title }}</span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<!-- Scripts -->
+<script src="/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="/js/unhcrmain.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+{{ with .Params.title }}
+  {{ if eq . "Home" }}
+  <script type="module" src="/js/vendor/forceDirectedGraph.js"></script>
+  {{ end }}
+{{ end }}
+
+<script src="assets/config.js"></script>
+<script src="/js/vendor/mapbox-scrolly.js"></script>
+
+{{ if .Params.tutorial }}
+<script src="/js/vendor/prism.min.js"></script>
+{{ end }}
+
+{{ with .Params.css_js_library }}
+{{ if .ai2html }}
+<script src="/js/vendor/ai2html-resizer.js"></script>
+{{ end }}
+{{ end }}
+
+{{ with .Params.extra_js }}
+{{ range . }}
+{{ . | safeHTML }}
+{{ end }}
+{{ end }}
+<!-- End scripts -->
+
+
+

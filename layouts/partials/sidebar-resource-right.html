@@ -1,0 +1,14 @@
+<nav id="sidebar">
+  <h6>On this page</h6>
+  <ul>
+    {{ $regex := `<section \s*id="(.+?)" class="pt-4">` }}
+    {{ $matches := findRESubmatch $regex .Content }}
+    {{ range $matches }}
+    {{ $id := index . 1 }}
+    <li>
+      <a href="#{{ $id }}">{{ $id | humanize }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+

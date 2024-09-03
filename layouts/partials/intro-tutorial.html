@@ -1,0 +1,65 @@
+<div class="pt-4 mb-4">
+  {{ $tutorialSection := .Site.GetPage "section" "tutorials" }}
+  {{ $currentPageId := .Params.id }}
+  {{ $currentPageURL := .Permalink }}
+  <h1 class="mb-4">{{ .Page.Title }}</h1>
+
+  {{ with .Page.Params.intro | safeHTML }}
+    <p class="fs-5">{{ . }}</p>
+    {{ $pageId := $.Page.Params.id }}
+    {{ range $index, $data := site.Data.charts }}
+      {{ if eq $data.id $pageId }}
+        <p>More about: <a href="../../../chart-types/{{ $data.category | urlize }}/#{{ $data.id }}">{{ $data.caption }}</a></p>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ with $tutorialSection }}
+    {{ if .Pages }}
+      {{ $showOtherTutorials := false }}
+      {{ range .Pages }}
+        {{ $pageTitle := .Title }}
+        {{ $pagesId := .Params.id }}
+        {{ $subpages := .Pages }}
+        {{ if eq .Section "tutorials" }}
+          {{ range $subpages }}
+            {{ $SubPageId := .Params.id }}
+            {{ $singlePage := .Pages }}
+            {{ range $singlePage }}
+              {{ $singlePageId := .Params.id }}
+              {{ if and (eq $singlePageId $currentPageId) (ne $currentPageURL .Permalink) }}
+                {{ $showOtherTutorials = true }}
+                {{ break }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $showOtherTutorials }}
+        <p>Other tutorials:
+          {{ range .Pages }}
+            {{ $pageTitle := .Title }}
+            {{ $pagesId := .Params.id }}
+            {{ $subpages := .Pages }}
+            {{ if eq .Section "tutorials" }}
+              {{ range $subpages }}
+                {{ $SubPageId := .Params.id }}
+                {{ $singlePage := .Pages }}
+                {{ range $singlePage }}
+                  {{ $singlePageId := .Params.id }}
+                  {{ if and (eq $singlePageId $currentPageId) (ne $currentPageURL .Permalink) }}
+                    <a href="/tutorials/{{ $pagesId }}/{{ $SubPageId }}/#{{ $currentPageId }}"><span class="badge text-bg-primary">{{ $pageTitle }}</span></a>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+       </p>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+
+
+

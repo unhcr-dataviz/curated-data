@@ -1,0 +1,27 @@
+<nav class="navbar nav-sidebar dvp-container navbar-expand-lg border-bottom">
+  <div class="dvp-body py-2">
+    <a class="navbar-brand" href="/">
+      <img src="/img/unhcr_logo_blue.svg" alt="UNHCR Logo" class="img-fluid" style="height: 3rem; max-height:2.75rem" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ms-auto">
+        {{ $currentPageURL := .Permalink }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link{{ if or (eq $currentPageURL .URL) (in $currentPageURL .URL) }} active{{ end }}"
+            aria-current="page{{ if or (eq $currentPageURL .URL) (in $currentPageURL .URL) }}{{ end }}" href="{{ .URL }}">
+            {{ .Pre }}
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+

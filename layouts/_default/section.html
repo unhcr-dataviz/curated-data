@@ -1,0 +1,33 @@
+{{ define "main" }}
+<main class="dvp-container" id="{{ .Title | urlize }}">
+  <div class="dvp-body my-5">
+    {{- partial "intro.html" . -}}
+    {{ range .Pages }}
+    <hr>
+    <section id="{{ .Params.id }}" class="my-5">
+      <div class="grid">
+        <div class="g-col-12 g-col-md-6 mb-5">
+          <div class="d-flex justify-content-start mb-3">
+            <h3>{{ .Title }}</h3>
+          </div>
+          <p>{{ .Params.intro}}</p>
+          {{ if .Params.gis }}
+          <a href="{{ .Params.link }}" class="btn btn-primary mt-2">Tools and Services</a>
+          {{ else }}
+          <a href="{{ with .Params.link }}{{ . | absURL }}{{ else }}{{ .Permalink }}{{ end }}" class="btn btn-primary mt-2">Learn more</a>
+          {{ end }}
+          {{ with .Params.other_info }}
+          <p class="small text-muted mt-3">{{ . | safeHTML }}</p>
+          {{ end }}
+        </div>
+        <div class="g-col-12 g-col-md-6 md-5">
+          <img src="{{ with .Params.featured_image }}{{ . | absURL }}{{ end }}" alt="Tool {{ .Title }} thumbnail" class="img-fluid border">
+        </div>
+      </div>
+    </section>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
+
+

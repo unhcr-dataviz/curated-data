@@ -1,0 +1,18 @@
+<div class="text-center pt-4 mb-5">
+  <h1>{{ .Page.Title }}</h1>
+  <hr class="short-hr">
+  <div class="grid">
+    <div class="g-col-12 g-col-md-8 g-start-md-3">
+      {{ with .Page.Params.intro | safeHTML }}
+        <p>{{ . }}</p>
+        {{ $pageId := $.Page.Params.id }}
+        {{ range $index, $data := site.Data.charts }}
+          {{ if eq $data.id $pageId }}
+            <p>More about: <a href="../../../chart-gallery/{{ $data.category | lower }}/#{{ $data.id }}">{{ $data.caption }}</a></p>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+

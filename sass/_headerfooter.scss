@@ -1,0 +1,51 @@
+/* Header nav */
+.navbar {
+  font-size: 0.875rem;
+  letter-spacing: 0.05rem;
+
+  .navbar-brand img {
+    height: 3rem;
+    max-height: 2.75rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    box-shadow: none;
+  }
+
+  .nav-item {
+    .nav-link {
+      color: $unhcr-grey;
+      border-bottom: 2pt solid rgba(0, 0, 0, 0);
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: $unhcr-blue;
+      border-bottom: 2pt solid $unhcr-blue;
+    }
+  }
+}
+
+/* Footer nav */
+footer {
+  .nav {
+    font-size: 0.875rem;
+  }
+  .nav-link {
+    color: $gray-100;
+  }
+  .nav-link:hover {
+    color: $gray-400;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.25rem 0;
+    margin: 0.25rem 0.75rem;
+  }
+}

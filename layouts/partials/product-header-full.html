@@ -1,0 +1,16 @@
+<div id="product-header" class="video-holder">
+{{ $headImg := .Params.header_image }}
+{{ $headImgAlt := .Params.header_image_alt }}
+{{ $headImgDesc := .Params.header_image_caption }}
+  <div class="video-overlay"></div>
+  <video preload="none" playsinline autoplay muted loop>
+    <source src="{{ $headImg }}" type="video/mp4">
+  </video>
+  <div class="video-content">
+        <h1>{{ .Title }}</h1>
+        <h3>{{ .Params.subtitle }}</h4>
+        <p>{{ .Params.date.Format "2 Jan 2006" }}</p>
+  </div>
+</div>
+
+
