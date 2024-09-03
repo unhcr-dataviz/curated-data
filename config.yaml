@@ -1,7 +1,7 @@
 baseURL: https://unhcr-dataviz.github.io/curated-data/
 languageCode: 'en-us'
 title: 'Curated data'
-relativeURLS: false
+relativeURLS: true
 
 markup:
   goldmark:
