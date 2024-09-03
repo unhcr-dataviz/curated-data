@@ -12,7 +12,7 @@
           </div>
           <p>{{ .Params.intro}}</p>
           {{ if .Params.gis }}
-          <a href="{{ .Params.link }}" class="btn btn-primary mt-2">Tools and Services</a>
+          <a href="{{ .Params.link }}" class="btn btn-primary mt-2">Learn more</a>
           {{ else }}
           <a href="{{ with .Params.link }}{{ . | absURL }}{{ else }}{{ .Permalink }}{{ end }}" class="btn btn-primary mt-2">Learn more</a>
           {{ end }}
