@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Targeted datasets on Curated data</title>
-    <link>http://localhost:1313/curated-data/targeted-datasets/</link>
+    <link>http://localhost:50647/targeted-datasets/</link>
     <description>Recent content in Targeted datasets on Curated data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/curated-data/targeted-datasets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50647/targeted-datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global Data Inventory</title>
-      <link>http://localhost:1313/curated-data/targeted-datasets/global-data-inventory/</link>
+      <link>http://localhost:50647/targeted-datasets/global-data-inventory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/targeted-datasets/global-data-inventory/</guid>
+      <guid>http://localhost:50647/targeted-datasets/global-data-inventory/</guid>
       <description></description>
     </item>
     <item>
       <title>RIDL</title>
-      <link>http://localhost:1313/curated-data/targeted-datasets/ridl/</link>
+      <link>http://localhost:50647/targeted-datasets/ridl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/targeted-datasets/ridl/</guid>
+      <guid>http://localhost:50647/targeted-datasets/ridl/</guid>
       <description></description>
     </item>
     <item>
       <title>PRIMES Dataport</title>
-      <link>http://localhost:1313/curated-data/targeted-datasets/primes-dataport/</link>
+      <link>http://localhost:50647/targeted-datasets/primes-dataport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/targeted-datasets/primes-dataport/</guid>
+      <guid>http://localhost:50647/targeted-datasets/primes-dataport/</guid>
       <description></description>
     </item>
     <item>
       <title>MDL</title>
-      <link>http://localhost:1313/curated-data/targeted-datasets/mdl/</link>
+      <link>http://localhost:50647/targeted-datasets/mdl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/targeted-datasets/mdl/</guid>
+      <guid>http://localhost:50647/targeted-datasets/mdl/</guid>
       <description></description>
     </item>
   </channel>
