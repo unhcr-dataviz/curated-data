@@ -85,5 +85,12 @@
       <guid>http://localhost:1313/curated-data/targeted-datasets/mdl/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Refugee Funding Traker</title>
+      <link>http://localhost:1313/curated-data/foundational-datasets/refugee-funding-tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/curated-data/foundational-datasets/refugee-funding-tracker/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
