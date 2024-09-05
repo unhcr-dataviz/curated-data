@@ -8,19 +8,13 @@
   </url><url>
     <loc>http://localhost:1313/curated-data/foundational-datasets/refugee-data-finder/</loc>
   </url><url>
+    <loc>http://localhost:1313/curated-data/thematic-datasets/rimap/</loc>
+  </url><url>
     <loc>http://localhost:1313/curated-data/foundational-datasets/operational-data-portal/</loc>
   </url><url>
     <loc>http://localhost:1313/curated-data/targeted-datasets/ridl/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/thematic-datasets/rimap/</loc>
-  </url><url>
     <loc>http://localhost:1313/curated-data/thematic-datasets/</loc>
-  </url><url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/nowcasting-database/</loc>
-  </url><url>
-    <loc>http://localhost:1313/curated-data/targeted-datasets/primes-dataport/</loc>
-  </url><url>
-    <loc>http://localhost:1313/curated-data/targeted-datasets/</loc>
   </url><url>
     <loc>http://localhost:1313/curated-data/thematic-datasets/tims/</loc>
   </url><url>
@@ -28,7 +22,13 @@
   </url><url>
     <loc>http://localhost:1313/curated-data/thematic-datasets/irhis/</loc>
   </url><url>
+    <loc>http://localhost:1313/curated-data/targeted-datasets/primes-dataport/</loc>
+  </url><url>
+    <loc>http://localhost:1313/curated-data/targeted-datasets/</loc>
+  </url><url>
     <loc>http://localhost:1313/curated-data/targeted-datasets/mdl/</loc>
+  </url><url>
+    <loc>http://localhost:1313/curated-data/foundational-datasets/nowcasting-database/</loc>
   </url><url>
     <loc>http://localhost:1313/curated-data/foundational-datasets/refugee-funding-tracker/</loc>
   </url><url>
