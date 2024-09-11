@@ -1,6 +1,6 @@
 baseURL: https://unhcr-dataviz.github.io/curated-data/
 languageCode: 'en-us'
-title: 'UNHCR Curated data'
+title: 'UNHCR Curated Data'
 relativeURLS: true
 canonifyURLs: true
 
