@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Targeted datasets on Curated data</title>
+    <title>Context-specific on Curated data</title>
     <link>http://localhost:1313/curated-data/targeted-datasets/</link>
-    <description>Recent content in Targeted datasets on Curated data</description>
+    <description>Recent content in Context-specific on Curated data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/curated-data/targeted-datasets/index.xml" rel="self" type="application/rss+xml" />
