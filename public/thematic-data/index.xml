@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thematic data on UNHCR Curated Data</title>
+    <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/</link>
+    <description>Recent content in Thematic data on UNHCR Curated Data</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://unhcr-dataviz.github.io/curated-data/thematic-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RIMAP</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/rimap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/rimap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TIMS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DESS Database</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/dess-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/dess-database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iRHIS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LIMS, SENS, MSM, RMS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refworld</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/refworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/refworld/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

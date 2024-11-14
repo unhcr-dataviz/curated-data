@@ -2,41 +2,101 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/context-specific-data/global-data-inventory/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/context-specific-datasets/global-data-inventory/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/refugee-data-finder/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/refugee-data-finder/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-data-finder/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/thematic-datasets/rimap/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/rimap/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/operational-data-portal/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/operational-data-portal/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/context-specific-datasets/ridl/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/population-data/operational-data-portal/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/thematic-datasets/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/context-specific-data/ridl/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/thematic-datasets/tims/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/context-specific-datasets/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/dess-database/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/gis-database/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/gis-database/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/thematic-datasets/irhis/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/context-specific-datasets/primes-dataport/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/context-specific-datasets/mdl/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/context-specific-data/primes-dataport/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/nowcasting-database/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/population-data/primes-dataport/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/foundational-datasets/refugee-funding-tracker/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/refworld/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/context-specific-data/cloud-erp/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/context-specific-data/mdl/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/nowcasting-database/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-funding-tracker/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/population-data/nowcasting-database/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/refugee-funding-tracker/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/rimap/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/tims/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/irhis/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/global-data-inventory/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/ridl/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/primes-dataport/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/mdl/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/</loc>
     <lastmod>2023-01-23T18:14:03+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/curated-data/categories/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups3/case-management/</loc>
   </url><url>
-    <loc>http://localhost:1313/curated-data/tags/</loc>
+    <loc>https://unhcr-dataviz.github.io/curated-data/context-specific-data/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/data-systems/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/location-data/gis-database/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups1/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups2/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups3/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups3/information-management--administration/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups1/interagency-figures/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups2/international-protection-monitoring-framework/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/location-data/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups1/planning--estimation/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/population-data/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups3/programme-monitoring-framework/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups2/sectoral-operational--solutions-support-framework/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups2/security--emergency-preparedness-and-response/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups2/situation-analysis-and-needs-assessment/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/groups1/statistical--demographic/</loc>
+  </url><url>
+    <loc>https://unhcr-dataviz.github.io/curated-data/thematic-data/</loc>
   </url>
 </urlset>

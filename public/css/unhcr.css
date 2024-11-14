@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Lato|Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro&display=swap");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 :root,
 [data-bs-theme=light] {
@@ -2826,7 +2826,7 @@ progress {
   --unhcr-breadcrumb-padding-x: 0;
   --unhcr-breadcrumb-padding-y: 0;
   --unhcr-breadcrumb-margin-bottom: 1rem;
-  --unhcr-breadcrumb-font-size: 0.9rem;
+  --unhcr-breadcrumb-font-size: 0.875rem;
   --unhcr-breadcrumb-bg: ;
   --unhcr-breadcrumb-border-radius: ;
   --unhcr-breadcrumb-divider-color: var(--unhcr-secondary-color);
@@ -7498,7 +7498,7 @@ progress {
     gap: 0;
     grid-template-columns: [screen-start] 20px [screen-start-inset body-start-outset] 1fr [body-start] minmax(30px, 80px) [body-start-inset body-content-start] minmax(500px, 600px) [body-content-end body-end-inset] minmax(30px, 80px) [body-end] 1fr [body-end-outset screen-end-inset] 20px [screen-end];
   }
-.nav-sidebar.dvp-container  body  {
+  body .nav-sidebar.dvp-container {
     display: grid;
     gap: 0;
     grid-template-columns: [screen-start] 20px [screen-start-inset body-start-outset] 1fr [body-start body-start-inset body-content-start] minmax(500px, 600px) [body-content-end] 30px [body-end-inset] minmax(160px, 220px) [body-end] 1fr [body-end-outset screen-end-inset] 20px [screen-end];
@@ -7666,9 +7666,7 @@ li::marker {
 }
 
 #list-filter li {
-  cursor: pointer;
-  transition: all 0.3s;
-  padding: 0.25rem 0.5rem;
+  color: #666666;
   transition: all 0.3s;
 }
 #list-filter li:hover,
@@ -7723,7 +7721,6 @@ li::marker {
   top: 2rem;
   z-index: 2;
   height: calc(100vh - 2rem);
-  overflow-y: auto;
 }
 .sidebar nav ul {
   padding-left: 0;

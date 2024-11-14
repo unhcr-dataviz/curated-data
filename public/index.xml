@@ -1,95 +1,214 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on UNHCR Curated data</title>
-    <link>http://localhost:1313/curated-data/</link>
-    <description>Recent content in Home on UNHCR Curated data</description>
+    <title>Home on UNHCR Curated Data</title>
+    <link>https://unhcr-dataviz.github.io/curated-data/</link>
+    <description>Recent content in Home on UNHCR Curated Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/curated-data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://unhcr-dataviz.github.io/curated-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global Data Inventory</title>
-      <link>http://localhost:1313/curated-data/context-specific-datasets/global-data-inventory/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/context-specific-data/global-data-inventory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/context-specific-datasets/global-data-inventory/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/context-specific-data/global-data-inventory/</guid>
       <description></description>
     </item>
     <item>
       <title>Refugee Data Finder</title>
-      <link>http://localhost:1313/curated-data/foundational-datasets/refugee-data-finder/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/refugee-data-finder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/foundational-datasets/refugee-data-finder/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/refugee-data-finder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refugee Data Finder</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-data-finder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-data-finder/</guid>
       <description></description>
     </item>
     <item>
       <title>RIMAP</title>
-      <link>http://localhost:1313/curated-data/thematic-datasets/rimap/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/rimap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/thematic-datasets/rimap/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/rimap/</guid>
       <description></description>
     </item>
     <item>
       <title>Operational Data Portal</title>
-      <link>http://localhost:1313/curated-data/foundational-datasets/operational-data-portal/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/operational-data-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/foundational-datasets/operational-data-portal/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/operational-data-portal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operational Data Portal</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/operational-data-portal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/operational-data-portal/</guid>
       <description></description>
     </item>
     <item>
       <title>RIDL</title>
-      <link>http://localhost:1313/curated-data/context-specific-datasets/ridl/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/context-specific-data/ridl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/context-specific-datasets/ridl/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/context-specific-data/ridl/</guid>
       <description></description>
     </item>
     <item>
       <title>TIMS</title>
-      <link>http://localhost:1313/curated-data/thematic-datasets/tims/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/thematic-datasets/tims/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</guid>
       <description></description>
     </item>
     <item>
-      <title>GIS Database</title>
-      <link>http://localhost:1313/curated-data/foundational-datasets/gis-database/</link>
+      <title>DESS Database</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/dess-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/foundational-datasets/gis-database/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/dess-database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geospatial &amp; Location Operational Data</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/gis-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/gis-database/</guid>
       <description></description>
     </item>
     <item>
       <title>iRHIS</title>
-      <link>http://localhost:1313/curated-data/thematic-datasets/irhis/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/thematic-datasets/irhis/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LIMS, SENS, MSM, RMS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</guid>
       <description></description>
     </item>
     <item>
       <title>PRIMES Dataport</title>
-      <link>http://localhost:1313/curated-data/context-specific-datasets/primes-dataport/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/context-specific-data/primes-dataport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/context-specific-datasets/primes-dataport/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/context-specific-data/primes-dataport/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PRIMES Dataport</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/primes-dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/primes-dataport/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refworld</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/refworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/refworld/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud ERP</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/context-specific-data/cloud-erp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/context-specific-data/cloud-erp/</guid>
       <description></description>
     </item>
     <item>
       <title>MDL</title>
-      <link>http://localhost:1313/curated-data/context-specific-datasets/mdl/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/context-specific-data/mdl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/context-specific-datasets/mdl/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/context-specific-data/mdl/</guid>
       <description></description>
     </item>
     <item>
       <title>Nowcasting Database</title>
-      <link>http://localhost:1313/curated-data/foundational-datasets/nowcasting-database/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/nowcasting-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/foundational-datasets/nowcasting-database/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/nowcasting-database/</guid>
       <description></description>
     </item>
     <item>
       <title>Refugee Funding Traker</title>
-      <link>http://localhost:1313/curated-data/foundational-datasets/refugee-funding-tracker/</link>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-funding-tracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/curated-data/foundational-datasets/refugee-funding-tracker/</guid>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-funding-tracker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nowcasting Database</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/nowcasting-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/nowcasting-database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refugee Funding Traker</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/refugee-funding-tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/refugee-funding-tracker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RIMAP</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/rimap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/rimap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TIMS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/tims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/tims/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iRHIS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/irhis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/irhis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Global Data Inventory</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/global-data-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/global-data-inventory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RIDL</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/ridl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/ridl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PRIMES Dataport</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/primes-dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/primes-dataport/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MDL</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/data-systems/mdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/data-systems/mdl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geospatial &amp; Location Operational Data</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/location-data/gis-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/location-data/gis-database/</guid>
       <description></description>
     </item>
   </channel>

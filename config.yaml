@@ -21,3 +21,46 @@ permalinks:
 
 
 
+menu:
+  main:
+    - name: "Location data"
+      url: "/location-data/"
+      weight: 2
+    - name: "Population data"
+      url: "/population-data/"
+      weight: 3
+    - name: "Thematic data"
+      url: "/thematic-data/"
+      weight: 4
+    - name: "Context-specific data"
+      url: "/context-specific-data/"
+      weight: 5
+    - name: "Data systems"
+      url: "/data-systems/"
+      weight: 6
+  footer:
+    - name: "Location data"
+      url: "/location-data/"
+      weight: 2
+    - name: "Population data"
+      url: "/population-data/"
+      weight: 3
+    - name: "Thematic data"
+      url: "/thematic-data/"
+      weight: 4
+    - name: "Context-specific data"
+      url: "/context-specific-data/"
+      weight: 5
+    - name: "Data systems"
+      url: "/data-systems/"
+      weight: 6
+
+
+
+taxonomies:
+  group1: groups1
+  group2: groups2
+  group3: groups3
+
+
+preserveTaxonomyNames: true

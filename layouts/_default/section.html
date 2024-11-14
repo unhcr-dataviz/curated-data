@@ -4,7 +4,7 @@
     {{- partial "intro.html" . -}}
     {{ range .Pages }}
     <hr>
-    <section id="{{ .Params.id }}" class="my-5">
+    <section id="{{ .Params.id }}" class="my-5" data-aos="fade-up" data-aos-duration="1500">
       <div class="grid">
         <div class="g-col-12 g-col-md-6 mb-5">
           <div class="d-flex justify-content-start mb-3">
@@ -12,9 +12,9 @@
           </div>
           <p>{{ .Params.intro}}</p>
           {{ if .Params.gis }}
-          <a href="{{ .Params.link }}" class="btn btn-primary mt-2">Learn more</a>
+          <a href="{{ .Params.link }}" target="_blank" class="btn btn-primary mt-2">Learn more</a>
           {{ else }}
-          <a href="{{ with .Params.link }}{{ . | absURL }}{{ else }}{{ .Permalink }}{{ end }}" class="btn btn-primary mt-2">Learn more</a>
+          <a href="{{ with .Params.link }}{{ . | absURL }}{{ else }}{{ .Permalink }}{{ end }}" target="_blank" class="btn btn-primary mt-2">Learn more</a>
           {{ end }}
           {{ with .Params.other_info }}
           <p class="small text-muted mt-3">{{ . | safeHTML }}</p>

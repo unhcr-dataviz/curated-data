@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main class="dvp-container" id="{{ .Title | urlize }}">
+  <div class="dvp-body my-5">
+    {{- partial "intro.html" . -}}
+
+    {{ $desiredOrder := slice "programme monitoring framework" "case management" "information management & administration" }}
+    
+    {{ range $desiredOrder }}
+      {{ $category := . }}
+      {{ $pages := index $.Site.Taxonomies.groups3 $category }}
+      {{ if $pages }}
+        <hr>
+        <h3 class="my-5" data-aos="fade-up" data-aos-duration="1500">{{ $category | title }}</h3>
+        {{ range $index, $page := $pages }}
+          <section id="{{ $page.Params.id }}" class="mt-3 mb-5" data-aos="fade-up" data-aos-duration="1500">
+            <div class="grid">
+              <div class="g-col-12 g-col-md-6 mb-5">
+                <div class="d-flex justify-content-start mb-3">
+                  <h5>{{ $page.Title }}</h5>
+                </div>
+                <p>{{ $page.Params.intro }}</p>
+                {{ with $page.Params.link }}
+                <a href="{{ $page.Params.link }}" target="_blank" class="btn btn-primary mt-2">Learn more</a>
+                {{ end }}
+                {{ with $page.Params.other_info }}
+                <p class="small text-muted mt-3">{{ . | safeHTML }}</p>
+                {{ end }}
+              </div>
+              <div class="g-col-12 g-col-md-6 md-5">
+                <img src="{{ with $page.Params.featured_image }}{{ . | absURL }}{{ end }}" alt="Tool {{ $page.Title }} thumbnail" class="img-fluid border">
+              </div>
+            </div>
+          </section>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}
+
+

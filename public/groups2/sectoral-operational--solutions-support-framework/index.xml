@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sectoral Operational &amp; Solutions Support Framework on UNHCR Curated Data</title>
+    <link>https://unhcr-dataviz.github.io/curated-data/groups2/sectoral-operational--solutions-support-framework/</link>
+    <description>Recent content in Sectoral Operational &amp; Solutions Support Framework on UNHCR Curated Data</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://unhcr-dataviz.github.io/curated-data/groups2/sectoral-operational--solutions-support-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIMS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/tims/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iRHIS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/irhis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LIMS, SENS, MSM, RMS</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/thematic-data/lims-sens-msm-rms/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

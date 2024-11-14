@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groups3 on UNHCR Curated Data</title>
+    <link>https://unhcr-dataviz.github.io/curated-data/groups3/</link>
+    <description>Recent content in Groups3 on UNHCR Curated Data</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://unhcr-dataviz.github.io/curated-data/groups3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Management</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/groups3/case-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/groups3/case-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information Management &amp; Administration</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/groups3/information-management--administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/groups3/information-management--administration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programme Monitoring Framework</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/groups3/programme-monitoring-framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/groups3/programme-monitoring-framework/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

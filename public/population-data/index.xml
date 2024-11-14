@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Population data on UNHCR Curated Data</title>
+    <link>https://unhcr-dataviz.github.io/curated-data/population-data/</link>
+    <description>Recent content in Population data on UNHCR Curated Data</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://unhcr-dataviz.github.io/curated-data/population-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refugee Data Finder</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-data-finder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-data-finder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operational Data Portal</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/operational-data-portal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/operational-data-portal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PRIMES Dataport</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/primes-dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/primes-dataport/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refugee Funding Traker</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-funding-tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/refugee-funding-tracker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nowcasting Database</title>
+      <link>https://unhcr-dataviz.github.io/curated-data/population-data/nowcasting-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://unhcr-dataviz.github.io/curated-data/population-data/nowcasting-database/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
